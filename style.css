@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Font & colors */
+  body {
+    /* font-family: 'Great Vibes', cursive; calligraphy font */
+    background-color: #fff; /* white background */
+    color: #000; /* black text */
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 2px solid #000; /* black underline */
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+    color: #333;
+  }
+  
+  /* Main content */
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+
+    font-size: 2rem;
+    border-bottom: 2px solid #000; /* black underline */
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  ul ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+  }
+  
+  /* Floating Download Button */
+  #downloadBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 25px;
+    background: #000; /* black button */
+    color: #fff; /* white text */
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s, background 0.3s;
+    z-index: 100;
+  }
+  
+  #downloadBtn:hover {
+    background: #333; /* dark grey on hover */
+    transform: translateY(-3px);
+  }
+  
+  /* Links */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid #000; /* black underline */
+    color: #333;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    main {
+      padding: 0 0.5rem;
+    }
+  
+    #downloadBtn {
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 20px;
+    }
+  }
+  
